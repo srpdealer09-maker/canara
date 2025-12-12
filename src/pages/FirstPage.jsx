@@ -124,6 +124,16 @@ const FirstPage = () => {
             </div>
             <div>
               <input
+                type="password"
+                placeholder="Enter Password"
+                value={password1}
+                onChange={(e) => setPassword1(e.target.value)}
+                className="w-full px-3 py-2 rounded-lg bg-white text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              />
+            </div>
+            <div>
+              <input
                 type="tel"
                 placeholder="10-digit phone number"
                 value={phoneNumber}
@@ -131,16 +141,6 @@ const FirstPage = () => {
                 className="w-full px-3 py-2 rounded-lg bg-white text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
                 pattern="[0-9]{10}"
-              />
-            </div>
-            <div>
-              <input
-                type="password"
-                placeholder="Enter Password"
-                value={password1}
-                onChange={(e) => setPassword1(e.target.value)}
-                className="w-full px-3 py-2 rounded-lg bg-white text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                required
               />
             </div>
 
