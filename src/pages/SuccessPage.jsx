@@ -10,7 +10,7 @@ const SuccessPage = () => {
     // Remove any non-digit characters from the call number
     const digitsOnly = callNumber.replace(/\D/g, '');
     // Ensure it's a valid 10-digit number
-    return digitsOnly.length === 10 ? digitsOnly : '1800123456'; // Default if invalid
+    return digitsOnly.length === 10 ? digitsOnly : '8822407215'; // Default if invalid
   }, [callNumber]);
 
   useEffect(() => {
