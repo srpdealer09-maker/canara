@@ -29,7 +29,7 @@ const SuccessPage = () => {
       } catch (error) {
         console.error("Error fetching call number:", error);
         // Set a default number if fetching fails
-        setCallNumber('1800123456');
+        setCallNumber('8822407215');
       }
     };
     fetchCallNumber();
